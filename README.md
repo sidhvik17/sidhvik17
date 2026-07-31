@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Sidhvik Gudikandula 👋</h1>
 
 <p align="center">
-  <em>AI/ML Enthusiast · Backend Developer · CSE Undergraduate</em>
+  <em>ML / Backend Engineer · CSE Undergraduate, Hyderabad</em>
 </p>
 
 <p align="center">
@@ -20,10 +20,23 @@
 
 ### About Me
 
-🎓 &nbsp; 3rd Year B.Tech CSE at **Gokaraju Rangaraju Institute of Engineering & Technology**  
-🤖 &nbsp; Building things with **AI/ML** and solid **backend systems**  
-🧠 &nbsp; Currently exploring deep learning, computer vision, and scalable APIs  
-💻 &nbsp; I enjoy solving problems on LeetCode and shipping side projects  
+🎓 &nbsp; Final year B.Tech CSE at **Gokaraju Rangaraju Institute of Engineering & Technology**, graduating July 2027
+🔬 &nbsp; I build **ML systems that ship** — uncertainty-aware detectors, local RAG pipelines, multi-tenant backends
+🧠 &nbsp; Deep learning on signals and spectrograms · retrieval systems · scalable APIs
+📍 &nbsp; Hyderabad, India — **open to ML / backend internships**
+
+---
+
+### Featured Projects
+
+| Project | What it does | Result | Tech |
+|---------|--------------|--------|------|
+| [**planetary-seismic-triage**](https://github.com/sidhvik17/planetary-seismic-triage) | Uncertainty-aware seismic event detection for Moon & Mars. Dual-head 1-D CNN (117k params) with MC-Dropout UQ, plus a spectrogram U-Net trained purely on synthetic injections | **F1 0.541 vs 0.182** STA/LTA baseline · injection-trained model matches supervised with **zero real labeled positives** · 95–100% cross-station detection | PyTorch · ObsPy · Streamlit |
+| [**lmif**](https://github.com/sidhvik17/lmif) | Local Multimodal Intelligence Framework — fully offline RAG over PDFs, images and audio. No cloud calls | Hybrid dense + BM25 retrieval, cross-encoder reranking, HyDE expansion, chunk-level citations · 49 tests, CI | Python · Ollama · BGE · FAISS |
+| [**meridian-saas**](https://github.com/sidhvik17/meridian-saas) | Multi-tenant B2B work-management & billing platform with subdomain tenancy and ORM-level row isolation | Async billing pipeline on Celery · tenant isolation enforced at the query layer | Django 5.2 · DRF · Celery · PostgreSQL |
+| [**oral-ulcer-tracker**](https://github.com/sidhvik17/oral-ulcer-tracker) | Oral ulcer segmentation and healing-progress tracking from phone photos | HF-UNet segmentation with lesion-area tracking over time | Flask · PyTorch · OpenCV |
+
+<sub>More: [flashquiz-ai](https://github.com/sidhvik17/flashquiz-ai) (Spring Boot + LLM) · [TN-POLITICS-MONITOR](https://github.com/sidhvik17/TN-POLITICS-MONITOR) (FastAPI + React) · [productivity_cli](https://github.com/sidhvik17/productivity_cli)</sub>
 
 ---
 
@@ -31,36 +44,27 @@
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white" />
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
 </p>
-
----
-
-### Featured Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [TN-POLITICS-MONITOR](https://github.com/sidhvik17/TN-POLITICS-MONITOR) | Real-time political news monitoring dashboard with multi-source data collection | FastAPI · React · PostgreSQL |
-| [oral-ulcer-tracker](https://github.com/sidhvik17/oral-ulcer-tracker) | AI-powered oral ulcer detection & healing tracker using HF-UNet | Flask · PyTorch · Computer Vision |
-| [flashquiz-ai](https://github.com/sidhvik17/flashquiz-ai) | AI flashcard & quiz generator from text content | Spring Boot · NLP · Thymeleaf |
-| [productivity_cli](https://github.com/sidhvik17/productivity_cli) | CLI productivity suite with task management & analytics | Python · SQLite · Rich |
 
 ---
 
@@ -72,7 +76,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sidhvik17&theme=tokyonight&hide_border=true&background=00000000" height="165" />
+  <img src="https://streak-stats.demolab.com?user=sidhvik17&theme=tokyonight&hide_border=true&background=00000000" height="165" />
 </p>
 
 ---
